@@ -1,0 +1,3727 @@
+#####-----> Mod by Sig "GreatExperiment" Altre
+####-----> Reorganized by Pordy <><> <><> <><>
+#-----> Re-reorganized by Abbus <><> <><> <><>
+SpriteTypes = {
+
+###--->  ETS <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_ETS_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_ETS_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_ETS_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_ETS_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_ETS_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_ETS_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_ETS_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_ETS_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_ETS_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_ETS_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_ETS_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_ETS_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_ETS_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_ETS_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  SHA <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_SHA_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_SHA_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_SHA_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_SHA_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_SHA_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SHA_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_SHA_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_SHA_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_SHA_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SHA_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_SHA_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_SHA_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHA_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_SHA_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  TAB <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_TAB_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_TAB_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_TAB_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_TAB_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_TAB_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_TAB_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_TAB_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_TAB_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_TAB_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_TAB_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_TAB_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_TAB_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_TAB_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_TAB_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  CHI <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_CHI_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_early_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter3.dds"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter3.dds"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_CAS3.dds"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_naval_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_naval_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_naval_bomber3.dds"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_CHI_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_fighter2.dds"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_CHI_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_fighter2.dds"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_CHI_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_early_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_fighter3.dds"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_CAS1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_CAS3.dds"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_naval_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_naval_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_naval_bomber3.dds"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_CHI_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_early_bomber.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_tactical_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_tactical_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_tactical_bomber3.dds"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_CHI_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_tactical_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_tactical_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_tactical_bomber3.dds"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_CHI_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_heavy_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_heavy_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_heavy_fighter3.dds"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_CHI_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_heavy_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_heavy_fighter3.dds"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_tactical_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_tactical_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_tactical_bomber2.dds"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_CHI_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_strategic_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_strategic_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_strategic_bomber3.dds"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_CHI_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_strategic_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_strategic_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_strategic_bomber3.dds"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_CHI_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_strategic_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_jet_strategic_bomber1.dds"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_CHI_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_maritime_patrol_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_maritime_patrol_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_maritime_patrol_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_maritime_patrol_3.dds"
+	}	
+
+#-> Rocket interceptors <><>
+	SpriteType = {
+		name = "GFX_CHI_rocket_interceptor_equipment_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_rocket_interceptor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_rocket_interceptor_equipment_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_rocket_interceptor_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_rocket_interceptor_equipment_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_rocket_interceptor_3.dds"
+	}
+
+#-> Guided Missiles <><>
+	SpriteType = {
+		name = "GFX_CHI_guided_missile_equipment_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_guided_missile_2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_CHI_guided_missile_equipment_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/PRC/PRC_guided_missile_3.dds"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_CHI_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportDDS/PRC_transport_plane_equipment.dds"
+	}
+
+###--->  PRC <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_PRC_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_PRC_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_PRC_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_PRC_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_PRC_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_PRC_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_PRC_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_PRC_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_PRC_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_PRC_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_PRC_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_PRC_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_PRC_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_PRC_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  YUN <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_YUN_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_YUN_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_YUN_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_YUN_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_YUN_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_YUN_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_YUN_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_YUN_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_YUN_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_YUN_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_YUN_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_YUN_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_YUN_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_YUN_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  XSM <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_XSM_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_XSM_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_XSM_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_XSM_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_XSM_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_XSM_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_XSM_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_XSM_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_XSM_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_XSM_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_XSM_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_XSM_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_XSM_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_XSM_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  SIK <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_SIK_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_SIK_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_SIK_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_SIK_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_SIK_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SIK_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_SIK_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_SIK_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_SIK_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SIK_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_SIK_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_SIK_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_SIK_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_SIK_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  GXC <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_GXC_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_GXC_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_GXC_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_GXC_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_GXC_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_GXC_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_GXC_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_GXC_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_GXC_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_GXC_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_GXC_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_GXC_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_GXC_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_GXC_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  SHX <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_SHX_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_SHX_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_SHX_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_SHX_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_SHX_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SHX_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_SHX_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_SHX_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_SHX_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SHX_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_SHX_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_SHX_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHX_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_SHX_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  SQI <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_SQI_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_SQI_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_SQI_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_SQI_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_SQI_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SQI_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_SQI_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_SQI_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_SQI_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SQI_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_SQI_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_SQI_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_SQI_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_SQI_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  SZC <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_SZC_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_SZC_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_SZC_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_SZC_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_SZC_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SZC_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_SZC_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_SZC_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_SZC_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_SZC_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_SZC_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_SZC_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_SZC_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_SZC_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  ANQ <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_ANQ_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_ANQ_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_ANQ_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_ANQ_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_ANQ_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_ANQ_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_ANQ_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_ANQ_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_ANQ_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_ANQ_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_ANQ_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_ANQ_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_ANQ_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_ANQ_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+###--->  HNN <><> <><> <><>
+
+#-> Light fighters <><>
+	SpriteType = {
+		name = "GFX_HNN_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Light fighter-bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_fighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_fighter_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Dive bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Jet fighters <><>
+	SpriteType = {
+		name = "GFX_HNN_jet_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based jet fighters <><>
+	SpriteType = {
+		name = "GFX_HNN_jet_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_cv_fighter_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_fighter2.png"
+	}
+
+#-> Carrier-based light fighters <><>
+	SpriteType = {
+		name = "GFX_HNN_cv_early_fighter_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_fighter3.png"
+	}
+
+#-> Carrier dive bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_cv_CAS1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_CAS2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_CAS3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_CAS3.png"
+	}
+
+#-> Carrier-Based Torpedo bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_cv_naval_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_naval_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_cv_naval_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_naval_bomber3.png"
+	}
+
+#-> Medium bomber <><>
+	SpriteType = {
+		name = "GFX_HNN_early_bomber_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_early_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_tactical_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Medium maritime bomber <><>
+	SpriteType = {
+		name = "GFX_HNN_med_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_med_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_med_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_tactical_bomber3.png"
+	}
+
+#-> Heavy fighters <><>
+	SpriteType = {
+		name = "GFX_HNN_heavy_fighter1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_heavy_fighter2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_heavy_fighter3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Heavy fighter-bomber <><>
+	SpriteType = {
+		name = "GFX_HNN_hfighter_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_hfighter_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_heavy_fighter3.png"
+	}
+
+#-> Jet medium bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_tactical_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_tactical_bomber2.png"
+	}
+
+#-> Heavy bomber <><>
+	SpriteType = {
+		name = "GFX_HNN_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_strategic_bomber2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_strategic_bomber3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Heavy maritime bomber <><>
+	SpriteType = {
+		name = "GFX_HNN_strat_maritime1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_strat_maritime2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_strat_maritime3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_strategic_bomber3.png"
+	}
+
+#-> Jet heavy bombers <><>
+	SpriteType = {
+		name = "GFX_HNN_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_jet_strategic_bomber_a_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_jet_strategic_bomber1.png"
+	}
+
+#-> Maritime patrol <><>
+	SpriteType = {
+		name = "GFX_HNN_flying_boat_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_0.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_flying_boat1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_1.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_flying_boat2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_2.png"
+	}
+	SpriteType = {
+		name = "GFX_HNN_flying_boat3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/CHI/CHI_maritime_patrol_3.png"
+	}	
+
+#-> Transport planes <><>
+	SpriteType = {
+		name = "GFX_HNN_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/designer/TransportPNG/CHI_transport_plane_equipment.png"
+	}
+
+}
